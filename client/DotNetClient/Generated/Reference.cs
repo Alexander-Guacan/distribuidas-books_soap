@@ -250,7 +250,7 @@ namespace DotNetClient
         {
             if ((endpointConfiguration == EndpointConfiguration.BasicHttpBinding_IBookSoap))
             {
-                return new System.ServiceModel.EndpointAddress("http://localhost:8080/BookSoap");
+                return new System.ServiceModel.EndpointAddress("http://localhost:2317/BookSoap");
             }
             throw new System.InvalidOperationException(string.Format("Could not find endpoint with name \'{0}\'.", endpointConfiguration));
         }
